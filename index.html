@@ -10,15 +10,19 @@
   <div class="menu">
     <h1>Drea's NYE Party Cocktail Menu!!</h1>
     <hr>
+
     <dl>
-      <dt>Margarita</dt>
-      <dd>something, something, something</dd>
-      <dt>Mojito</dt>
-      <dd>something, something, something</dd>
-      <dt>Old Fashioned</dt>
-      <dd>something, something, something</dd>
-      <dt>Cosmopolitan</dt>
-      <dd>something, something, something</dd>
+      <dt>Vodka Sour</dt>
+        <dd>lemon juice, simple syrup, vodka, angostura bitters, egg white</dd>
+      <dt>Pomegranate Martini</dt>
+        <dd>cointreau, vodka, lemon juice, pomegranate simple syrup</dd>
+      <dt>Bee's Knees</dt>
+        <dd>vodka, honey, simple syrup, lemon juice, soda water</dd>
+      <dt>Lemon Drop</dt>
+        <dd>vodka, cointreau, lemon juice, simple syrup </dd>
+        <dd style = "font-size: 0.7rem;">(ask about a pomegranate lemon drop :O)</dd>
+      <dt>Pomegranate Fizz</dt>
+        <dd>vodka, pomegranate simple syrup, lemon juice, soda water, egg white</dd>
     </dl>
 
 <pre>
@@ -28,6 +32,17 @@
  /   ~   \
 /_________\
 </pre>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+<script>
+  window.onload = function() {
+    confetti({
+      particleCount: 200,
+      spread: 70,
+      origin: { y: 0.6 }
+    });
+  };
+</script>
 
   </div>
 </body>

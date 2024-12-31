@@ -17,6 +17,7 @@ body {
   h1 {
     font-size: 2rem;
     color: #444;
+    text-shadow: 0 0 2px #ffcc00, 0 0 2px #ffcc00, 0 0 3px #ffcc00;
   }
   hr {
     margin: 20px 0;
@@ -46,4 +47,4 @@ body {
     li {
       font-size: 1rem;
     }
-  }
+}
