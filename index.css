@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: monospace;
     margin: 0;
     padding: 20px;
     background-color: #f8f8f8;
@@ -18,13 +18,26 @@ body {
     font-size: 2rem;
     color: #444;
   }
-  ul {
+  hr {
+    margin: 20px 0;
+  }
+  dl {
     list-style: none;
     padding: 0;
   }
-  li {
+  dt {
     font-size: 1.2rem;
     margin: 10px 0;
+    font-weight: bolder;
+  }
+  dd {
+    font-size: 1.0rem;
+    margin: 10px 0;
+  }
+  pre {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 20px;
   }
   @media (max-width: 600px) {
     h1 {
