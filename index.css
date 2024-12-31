@@ -1,0 +1,49 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+  }
+  .menu {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    font-size: 2rem;
+    color: #444;
+  }
+  hr {
+    margin: 20px 0;
+  }
+  dl {
+    list-style: none;
+    padding: 0;
+  }
+  dt {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bolder;
+  }
+  dd {
+    font-size: 1.0rem;
+    margin: 10px 0;
+  }
+  pre {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 20px;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    li {
+      font-size: 1rem;
+    }
+  }
